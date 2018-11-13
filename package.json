@@ -1,0 +1,12 @@
+{
+  "name": "textlint-prh-example",
+  "description": "textlint + prh Example",
+  "scripts": {
+    "lint": "textlint docs/*",
+    "fix": "textlint --fix docs/*"
+  },
+  "devDependencies": {
+    "textlint": "^11.0.1",
+    "textlint-rule-prh": "^5.2.0"
+  }
+}
